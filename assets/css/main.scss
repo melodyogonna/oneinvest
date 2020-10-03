@@ -1,3 +1,22 @@
+$primary-color: #1e3888;
+
+body {
+  font-family: "Fira Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+.mt-6 {
+  margin-top: 6rem;
+}
+.mt-10 {
+  margin-top: 10rem;
+}
 .welcome-carousel {
   background: linear-gradient(
       180deg,
@@ -9,8 +28,45 @@
   background-size: cover;
   background-position: center center;
 }
+.benefit-carousel {
+  background: linear-gradient(
+      180deg,
+      rgba(33, 35, 33, 0.85) 0%,
+      rgba(33, 35, 33, 0.85) 100%
+    ),
+    url("../images/pexels-anna-shvets-3943949.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 
 .carousel-info {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  @media screen and (min-width: 768px) {
+    padding-top: 13rem;
+    padding-bottom: 14rem;
+  }
+}
+.cta {
+  .cta__heading-text {
+    font-size: 1.5rem;
+    @media screen and (min-width: 768px) {
+      font-size: 3rem;
+    }
+  }
+  .cta__p-info {
+    color: #fffdfd;
+    font-size: 1rem;
+    margin-top: 1rem;
+    @media screen and (min-width: 768px) {
+      font-size: 1.3rem;
+    }
+  }
+  .cta__btn {
+    width: 12rem;
+    background-color: $primary-color;
+    color: #e1e3ea;
+    border-radius: 17px;
+  }
 }

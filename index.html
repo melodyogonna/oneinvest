@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link
       rel="stylesheet"
@@ -30,7 +34,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light mt-2 mb-4">
+      <nav class="navbar navbar-light mt-2 mb-4">
         <a class="navbar-brand" href="#">ONE-INVEST</a>
         <button
           class="navbar-toggler"
@@ -67,35 +71,145 @@
         </div>
       </nav>
     </header>
+    <div class="coinlink-marquee">
+      <div
+        style="
+          height: 62px;
+          background-color: #1d2330;
+          overflow: hidden;
+          box-sizing: border-box;
+          border: 1px solid #282e3b;
+          border-radius: 4px;
+          text-align: right;
+          line-height: 14px;
+          block-size: 62px;
+          font-size: 12px;
+          font-feature-settings: normal;
+          text-size-adjust: 100%;
+          box-shadow: inset 0 -20px 0 0 #262b38;
+          padding: 1px;
+          padding: 0px;
+          margin: 0px;
+          width: 100%;
+        "
+      >
+        <div style="height: 40px; padding: 0px; margin: 0px; width: 100%;">
+          <iframe
+            src="https://widget.coinlib.io/widget?type=horizontal_v2&theme=dark&pref_coin_id=1505&invert_hover="
+            width="100%"
+            height="36px"
+            scrolling="auto"
+            marginwidth="0"
+            marginheight="0"
+            frameborder="0"
+            border="0"
+            style="border: 0; margin: 0; padding: 0;"
+          ></iframe>
+        </div>
+
+        <div
+          style="
+            color: #626b7f;
+            line-height: 14px;
+            font-weight: 400;
+            font-size: 11px;
+            box-sizing: border-box;
+            padding: 2px 6px;
+            width: 100%;
+            font-family: Verdana, Tahoma, Arial, sans-serif;
+          "
+        >
+          <a
+            href="https://coinlib.io"
+            target="_blank"
+            style="
+              font-weight: 500;
+              color: #626b7f;
+              text-decoration: none;
+              font-size: 11px;
+            "
+            >Cryptocurrency Prices</a
+          >&nbsp;by Coinlib
+        </div>
+      </div>
+    </div>
     <section name="header-carousel-area">
       <div class="owl-carousel owl-theme">
         <div class="welcome-carousel">
           <div class="carousel-info">
-            <h1 class="text-light">The Digital Trading Company</h1>
-            <p>
-              A Global Investment Manager For Diverse Portfolios
-            </p>
-            <a href="#">Get Started</a>
+            <div class="container">
+              <div class="col-md-8">
+                <div class="cta">
+                  <h1 class="text-light cta__heading-text">
+                    The Digital Trading Company
+                  </h1>
+                  <p class="cta__p-info">
+                    A Global Investment Manager For Diverse Portfolios
+                  </p>
+                  <a href="#" class="cta__btn btn mt-4 py-2">Get Started</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="benefit-carousel">
           <div class="carousel-info">
-            <h1>
-              Advanced profit making algorithm
-            </h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Exercitationem suscipit labore, earum voluptas doloribus aut
-              explicabo voluptatibus incidunt quis ad atque libero non velit
-              nihil pariatur, cupiditate repudiandae veritatis placeat.
-            </p>
+            <div class="container">
+              <div class="col-md-8">
+                <div class="cta">
+                  <h1 class="text-light cta__heading-text">
+                    The Digital Trading Company
+                  </h1>
+                  <p class="cta__p-info">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit
+                    accusantium! Magnam, dolorum?
+                  </p>
+                  <a href="#" class="cta__btn btn mt-4 py-2">Get Started</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <main>
-      <section name="about section">
+      <section class="mt-10 about">
+        <div class="container-fluid">
+          <div class="row justify-content-between">
+            <div class="col-md-5 col-sm-6 mt-md-5">
+              <h1>About us</h1>
+              <article>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Molestiae veritatis ducimus accusamus eaque, quisquam,
+                  reprehenderit libero ex neque officiis consectetur corrupti
+                  necessitatibus culpa aperiam laudantium quod possimus quis
+                  distinctio voluptate.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Molestiae veritatis ducimus accusamus eaque, quisquam,
+                  reprehenderit libero ex neque officiis consectetur corrupti
+                  necessitatibus culpa aperiam laudantium quod possimus quis
+                  distinctio voluptate.
+                </p>
+              </article>
+            </div>
+            <div class="col-md-6 col-sm-6 mt-5 mt-sm-0">
+              <iframe
+                width="100%"
+                height="400"
+                src="https://www.youtube.com/embed/l-gF0vDhJVI"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section name="about section" class="mt-10">
         <div class="container">
           <div class="text-center">
             <h3>Get The Best</h3>
@@ -109,52 +223,184 @@
         </div>
       </section>
 
-      <section class="steps">
-        <div class="container">
+      <section class="benefits mt-5">
+        <div class="container-fluid">
           <div class="row">
             <div class="col-md-4 col-sm-6">
               <div class="card">
-                <img src="..." class="card-img-top" alt="..." />
+                <img
+                  src="assets/images/ceyda-ciftci-5OoKz6fnHlA-unsplash.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Experts in the field</h5>
                   <p class="card-text">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
             </div>
             <div class="col-md-4 col-sm-6">
               <div class="card">
-                <img src="..." class="card-img-top" alt="..." />
+                <img
+                  src="assets/images/toni-koraza-lpWg5dE4Ut0-unsplash.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Weekly return on investment</h5>
                   <p class="card-text">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
             </div>
             <div class="col-md-4 col-sm-6">
               <div class="card">
-                <img src="..." class="card-img-top" alt="..." />
+                <img
+                  src="assets/images/pexels-the-coach-space-2977565.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Excellent customer support</h5>
                   <p class="card-text">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      <section class="steps mt-10">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-md-4 col-sm-6">
+              <div class="steps__main">
+                <h3>Step 01</h3>
+                <h5>
+                  Fill simple registration form to create account
+                </h5>
+                <ul class="shortsteps">
+                  <li>Let us know more about you</li>
+                  <li>Confirm your email address</li>
+                  <li>You're in!</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <img
+                src="assets/images/undraw_No_data_re_kwbl.svg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="row mt-6 justify-content-between">
+              <div class="col-md-4 col-sm-6">
+                <img
+                  src="assets/images/undraw_dashboard_nklg.svg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="steps__main">
+                  <h3>Step 02</h3>
+                  <h5>
+                    Select your plan and invest
+                  </h5>
+                  <ul class="shortsteps">
+                    <li>Let us know more about you</li>
+                    <li>Confirm your email address</li>
+                    <li>You're in!</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-6 justify-content-between">
+              <div class="col-md-4 col-sm-6">
+                <div class="steps__main">
+                  <h3>Step 03</h3>
+                  <h5>
+                    Count your profits
+                  </h5>
+                  <ul class="shortsteps">
+                    <li>Let us know more about you</li>
+                    <li>Confirm your email address</li>
+                    <li>You're in!</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <img
+                  src="assets/images/undraw_wallet_aym5.svg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer class="mt-10">
+      <div class="container-fluid">
+        <div class="row justify-content-between">
+          <div class="col-md-3 col-sm-5">
+            <h4>OneInvest</h4>
+            <p>
+              176 Pivet Avenue, San Francisco, CA, United States.
+            </p>
+          </div>
+          <div class="col-md-9 col-sm-7">
+            <div class="row justify-content-between">
+              <div class="col-6 col-md-4">
+                <h4>Explore</h4>
+                <ul class="list-unstyled">
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Contact us</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-6 col-md-4">
+                <h4>Resources</h4>
+                <ul class="list-unstyled">
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Privacy Policy</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Terms and Conditions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-6 col-md-4">
+                <h4>Social</h4>
+                <ul class="list-unstyled">
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Facebook</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Instagram</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">LinkedIn</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
