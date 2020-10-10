@@ -10,24 +10,15 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
     />
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       rel="stylesheet"
-      href="assets/css/owl.carousel.min.css"
       type="text/css"
-      media="screen"
-      title="no title"
-      charset="utf-8"
-    />
-    <link
-      rel="stylesheet"
-      href="assets/css/owl.theme.default.css"
-      type="text/css"
-      media="screen"
-      title="no title"
-      charset="utf-8"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
     <title>One-Invest - Home</title>
@@ -59,7 +50,7 @@
               <a class="nav-link" href="#">About us</a>
             </li>
             <li class="nav-item mr-4">
-              <a class="nav-link" href="#">Investment Plans</a>
+              <a class="nav-link" href="#">Contact us</a>
             </li>
             <li class="nav-item mr-4">
               <a class="nav-link" href="#">Log in</a>
@@ -144,7 +135,11 @@
                     The Digital Trading Company
                   </h1>
                   <p class="cta__p-info">
-                    A Global Investment Manager For Diverse Portfolios
+                    A
+                    <span class="text-accent-two"
+                      >Global Investment Manager</span
+                    >
+                    For Diverse Portfolios
                   </p>
                   <a href="#" class="cta__btn btn mt-4 py-2">Get Started</a>
                 </div>
@@ -178,8 +173,8 @@
         <div class="container-fluid">
           <div class="row justify-content-between">
             <div class="col-md-5 col-sm-6 mt-md-5">
-              <h1>About us</h1>
-              <article>
+              <h2 class="text-color">About us</h2>
+              <article class="text-color" data-aos="fade-up">
                 <p>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Molestiae veritatis ducimus accusamus eaque, quisquam,
@@ -197,23 +192,25 @@
               </article>
             </div>
             <div class="col-md-6 col-sm-6 mt-5 mt-sm-0">
-              <iframe
-                width="100%"
-                height="400"
-                src="https://www.youtube.com/embed/l-gF0vDhJVI"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
+              <div class="video-container">
+                <iframe
+                  width="100%"
+                  height="400"
+                  src="https://www.youtube.com/embed/l-gF0vDhJVI"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <section name="about section" class="mt-10">
+      <section name="benefit section" class="mt-10 benefit-section">
         <div class="container">
-          <div class="text-center">
-            <h3>Get The Best</h3>
-            <p>
+          <div class="text-center" data-aos="fade-up">
+            <h3 class="text-color">Get The Best</h3>
+            <p class="text-color">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
               ipsum voluptate consequatur, cupiditate reiciendis dignissimos eum
               accusantium perferendis quia quis repellat consequuntur possimus,
@@ -221,21 +218,19 @@
             </p>
           </div>
         </div>
-      </section>
 
-      <section class="benefits mt-5">
-        <div class="container-fluid">
+        <div class="container-fluid mt-5">
           <div class="row">
             <div class="col-md-4 col-sm-6">
-              <div class="card">
+              <div class="card mb-3 mb-md-0">
                 <img
                   src="assets/images/ceyda-ciftci-5OoKz6fnHlA-unsplash.jpg"
                   class="card-img-top"
                   alt="..."
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Experts in the field</h5>
-                  <p class="card-text">
+                  <h5 class="card-title text-color">Experts in the field</h5>
+                  <p class="card-text text-color">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
@@ -243,15 +238,17 @@
               </div>
             </div>
             <div class="col-md-4 col-sm-6">
-              <div class="card">
+              <div class="card shadow-sm mt-md-3 mb-md-0 mb-3">
                 <img
                   src="assets/images/toni-koraza-lpWg5dE4Ut0-unsplash.jpg"
                   class="card-img-top"
                   alt="..."
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Weekly return on investment</h5>
-                  <p class="card-text">
+                  <h5 class="card-title text-color">
+                    Weekly return on investment
+                  </h5>
+                  <p class="card-text text-color">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
@@ -266,8 +263,10 @@
                   alt="..."
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Excellent customer support</h5>
-                  <p class="card-text">
+                  <h5 class="card-title text-color">
+                    Excellent customer support
+                  </h5>
+                  <p class="card-text text-color">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
@@ -287,18 +286,18 @@
                 <h5>
                   Fill simple registration form to create account
                 </h5>
-                <ul class="shortsteps">
+                <ul class="shortsteps list-unstyled mt-3">
                   <li>Let us know more about you</li>
                   <li>Confirm your email address</li>
                   <li>You're in!</li>
                 </ul>
               </div>
             </div>
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-4 col-sm-6 mt-5">
               <img
                 src="assets/images/undraw_No_data_re_kwbl.svg"
                 alt=""
-                class="img-fluid"
+                class="img-fluid rounded-circle"
               />
             </div>
             <div class="row mt-6 justify-content-between">
@@ -306,16 +305,16 @@
                 <img
                   src="assets/images/undraw_dashboard_nklg.svg"
                   alt=""
-                  class="img-fluid"
+                  class="img-fluid rounded-circle"
                 />
               </div>
-              <div class="col-md-4 col-sm-6">
+              <div class="col-md-4 col-sm-6 mt-5">
                 <div class="steps__main">
                   <h3>Step 02</h3>
                   <h5>
                     Select your plan and invest
                   </h5>
-                  <ul class="shortsteps">
+                  <ul class="shortsteps list-unstyled mt-3">
                     <li>Let us know more about you</li>
                     <li>Confirm your email address</li>
                     <li>You're in!</li>
@@ -330,19 +329,119 @@
                   <h5>
                     Count your profits
                   </h5>
-                  <ul class="shortsteps">
+                  <ul class="shortsteps list-unstyled mt-3">
                     <li>Let us know more about you</li>
                     <li>Confirm your email address</li>
                     <li>You're in!</li>
                   </ul>
                 </div>
               </div>
-              <div class="col-md-4 col-sm-6">
+              <div class="col-md-4 col-sm-6 mt-5">
                 <img
                   src="assets/images/undraw_wallet_aym5.svg"
                   alt=""
-                  class="img-fluid"
+                  class="img-fluid rounded-circle"
                 />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="plans-section mt-10">
+        <div class="container">
+          <header class="plans-section__header">
+            <h3 class="text-light">Our plans</h3>
+          </header>
+          <div class="plans">
+            <div class="row">
+              <div class="col-md-4 col-sm-6">
+                <div class="plan plan--overview shadow p-4">
+                  <h6 class="plan__name">
+                    A plan for
+                  </h6>
+                  <h2 class="plan__pricing">
+                    Everyone
+                  </h2>
+                  <div class="plan__body mt-3">
+                    <p>
+                      Flexible and efficient plans that caters for your every
+                      need
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sint quaerat aliquid qui voluptatum, ad, obcaecati
+                      delectus,
+                    </p>
+
+                    <div class="text-center">
+                      <img
+                        src="assets/images/undraw_survey_05s5.svg"
+                        class="img-fluid mt-4"
+                        width="70%"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="plan shadow p-4">
+                  <div class="plan__header row px-4 justify-content-between">
+                    <h6 class="plan__name">
+                      Basic
+                    </h6>
+                    <div class="pricin">
+                      <span class="d-block">Starting From</span>
+                      <h2 class="plan__pricing text-right">
+                        &#8364;400
+                      </h2>
+                    </div>
+                  </div>
+                  <div class="plan__body mt-4">
+                    <h6>Plan Includes:</h6>
+                    <ul class="list-unstyled plan__features">
+                      <li>3% Return on Investment</li>
+                      <li>7 days turnover</li>
+                      <li>&#8364;10,000 maximum investment</li>
+                      <li>3 months</li>
+                    </ul>
+                  </div>
+                  <div class="plan__footer">
+                    <div class="text-center">
+                      <a href="#" class="btn plan__cta-btn">Select Plan</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="plan shadow p-4">
+                  <div class="plan__header row px-4 justify-content-between">
+                    <h6 class="plan__name">
+                      Standard
+                    </h6>
+                    <div class="pricin">
+                      <span class="d-block">Starting From</span>
+                      <h2 class="plan__pricing text-right">
+                        &#8364;1,000
+                      </h2>
+                    </div>
+                  </div>
+                  <div class="plan__body mt-4">
+                    <h6>Plan Includes:</h6>
+                    <ul class="list-unstyled plan__features">
+                      <li>3% Return on Investment</li>
+                      <li>7 days turnover</li>
+                      <li>&#8364;10,000 maximum investment</li>
+                      <li>3 months</li>
+                    </ul>
+                  </div>
+                  <div class="plan__footer">
+                    <div class="text-center">
+                      <a href="#" class="btn plan__cta-btn">Select Plan</a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -407,7 +506,11 @@
       crossorigin="anonymous"
     ></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>

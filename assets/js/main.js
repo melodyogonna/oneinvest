@@ -1,9 +1,9 @@
 $(document).ready(function () {
-  $(".owl-carousel").owlCarousel({
-    items: 1,
+  AOS.init();
+  $(".owl-carousel").slick({
+    slidesToShow: 1,
+    arrows: false,
     autoplay: true,
-    loop: true,
-    autoplayHoverPause: true,
-    animateOut: "fadeOut",
+    easing: "ease-in",
   });
 });

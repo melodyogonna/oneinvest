@@ -1,7 +1,12 @@
 $primary-color: #1e3888;
+$accent-1: #dee6f7;
+$accent-2: #e0ca3c;
+$text-color: #676865;
+$body-bg: #f3f6fc;
 
 body {
   font-family: "Fira Sans", sans-serif;
+  background-color: $body-bg;
 }
 h1,
 h2,
@@ -16,6 +21,13 @@ h6 {
 }
 .mt-10 {
   margin-top: 10rem;
+}
+
+.text-color {
+  color: $text-color;
+}
+.text-accent-two {
+  color: $accent-2;
 }
 .welcome-carousel {
   background: linear-gradient(
@@ -68,5 +80,81 @@ h6 {
     background-color: $primary-color;
     color: #e1e3ea;
     border-radius: 17px;
+  }
+}
+
+.shortsteps {
+  li:before {
+    content: "\2713";
+    display: inline-block;
+    margin-right: 0.4rem;
+    color: $primary-color;
+    background-color: lighten($color: $primary-color, $amount: 63);
+    padding: 0.2rem 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 50%;
+  }
+
+  li {
+    margin-bottom: 0.6rem;
+  }
+}
+
+.benefit-section {
+  background-color: lighten($color: $accent-1, $amount: 3);
+  padding: 6rem 0.5rem;
+  .card {
+    border-radius: 0.5rem;
+  }
+}
+
+.plans-section {
+  background-image: url("../images/nabeel-hussain-szc62bN79jY-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 6rem 0rem;
+  .plans-section__header {
+    margin-bottom: 2rem;
+  }
+  .plans {
+    .plan {
+      background-color: lighten($color: $accent-1, $amount: 2);
+      border-radius: 7px;
+      &.plan--overview {
+        background-color: $primary-color;
+        color: $accent-1;
+      }
+
+      .plan__features {
+        li {
+          margin-top: 0.6rem;
+          color: $text-color;
+        }
+        li:before {
+          content: "\2713";
+          display: inline-block;
+          margin-right: 0.4rem;
+          color: $primary-color;
+          padding: 0.2rem 0.5rem;
+          font-size: 1.2rem;
+          border-radius: 50%;
+        }
+      }
+      .plan__footer {
+        margin-top: 2rem;
+        .plan__cta-btn {
+          background-color: $primary-color;
+          color: $accent-1;
+          width: 8rem;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  a.nav-link {
+    color: $text-color;
+    padding: 0.5rem 0rem;
   }
 }
