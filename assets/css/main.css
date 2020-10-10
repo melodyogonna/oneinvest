@@ -126,3 +126,11 @@ h6 {
 footer a.nav-link {
   color: #676865;
   padding: 0.5rem 0rem; }
+
+main.auth-page {
+  height: 100vh; }
+
+main.auth-page .auth-pattern-section {
+  background-image: url("../images/memphis-1788465.svg");
+  height: 100vh;
+  width: 100%; }
