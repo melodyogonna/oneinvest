@@ -123,6 +123,19 @@ h6 {
   color: #dee6f7;
   width: 8rem; }
 
+.second-cta-section .second-cta-content .secondary-cta {
+  background-color: #1e3888;
+  color: #dee6f7; }
+
+.second-cta-section .second-cta-image {
+  background-image: url("../images/volkan-vardar-f89aMG-KI-I-unsplash (1).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40rem;
+  border-radius: 70px 0px 0px 0px;
+  padding-left: 5rem;
+  width: 100%; }
+
 footer a.nav-link {
   color: #4a4550;
   padding: 0.5rem 0rem; }
@@ -132,5 +145,5 @@ main.auth-page {
 
 main.auth-page .auth-pattern-section {
   background-image: url("../images/memphis-1788465.svg");
-  height: 100%;
+  height: 100vh;
   width: 100%; }
