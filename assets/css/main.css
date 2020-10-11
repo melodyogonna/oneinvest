@@ -17,7 +17,7 @@ h6 {
   margin-top: 10rem; }
 
 .text-color {
-  color: #676865; }
+  color: #4a4550; }
 
 .text-accent-two {
   color: #e0ca3c; }
@@ -104,7 +104,7 @@ h6 {
 
 .plans-section .plans .plan .plan__features li {
   margin-top: 0.6rem;
-  color: #676865; }
+  color: #4a4550; }
 
 .plans-section .plans .plan .plan__features li:before {
   content: "\2713";
@@ -124,7 +124,7 @@ h6 {
   width: 8rem; }
 
 footer a.nav-link {
-  color: #676865;
+  color: #4a4550;
   padding: 0.5rem 0rem; }
 
 main.auth-page {
@@ -132,5 +132,5 @@ main.auth-page {
 
 main.auth-page .auth-pattern-section {
   background-image: url("../images/memphis-1788465.svg");
-  height: 100vh;
+  height: 100%;
   width: 100%; }
