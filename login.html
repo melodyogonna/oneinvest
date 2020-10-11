@@ -21,59 +21,71 @@
       href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <title>One-Invest - Home</title>
+    <title>One-Invest - Login</title>
   </head>
+
   <body>
     <main class="auth-page">
       <div class="row px-0">
         <div class="col-md-5">
           <div class="container">
             <div class="login-form col-md-8 m-auto">
-              <div class="login-with-google mt-5 text-center">
-                <a href="#" class="btn btn-outline-primary"
-                  >login with google <span class="fab fa-google"></span
-                ></a>
-              </div>
+              <div class="bg-light mt-5 shadow-sm p-3">
+                <div class="social-logins text-center">
+                  <a href="#" class=""
+                    ><span
+                      class="fab fa-google fa-2x d-inline-block mr-2"
+                    ></span
+                  ></a>
+                  <a href="#" class=""
+                    ><span class="fab fa-facebook fa-2x d-inline-block"></span
+                  ></a>
+                </div>
 
-              <div class="login mt-3">
-                <form action="" method="post">
-                  <div class="form-group">
-                    <label for="email">Email</label>
-                    <input
-                      type="text"
-                      name="email"
-                      id="email"
-                      placeholder="johndoe@email.com"
-                      class="form-control-lg form-control mt-1"
-                    />
-                  </div>
-                  <div class="form-group mt-5">
-                    <label for="password">Password</label>
-                    <input
-                      type="password"
-                      name="password"
-                      id="password"
-                      class="form-control form-control-lg"
-                      placeholder="Password"
-                    />
-                  </div>
-                  <div class="form-group">
-                    <button class="btn btn-primary">Log In</button>
-                  </div>
-                  <div class="row justify-content-between">
-                    <div class="custom-control custom-checkbox">
+                <div class="login mt-3">
+                  <form action="" method="post">
+                    <div class="form-group">
+                      <label for="email" class="text-color">Email</label>
                       <input
-                        type="checkbox"
-                        class="custom-control-input"
-                        id="remember-me"
+                        type="text"
+                        name="email"
+                        id="email"
+                        placeholder="johndoe@email.com"
+                        class="form-control-lg form-control mt-1"
                       />
-                      <label class="custom-control-label" for="customCheck1"
-                        >Remember me</label
-                      >
                     </div>
-                    <a href="#">Forgot passwor?</a>
-                  </div>
-                </form>
+                    <div class="form-group mt-3">
+                      <label for="password" class="text-color">Password</label>
+                      <input
+                        type="password"
+                        name="password"
+                        id="password"
+                        class="form-control form-control-lg"
+                        placeholder="Password"
+                      />
+                    </div>
+                    <div class="form-group mt-2">
+                      <button class="btn btn-primary px-4">Log In</button>
+
+                      <div class="row px-3 mt-3 justify-content-between">
+                        <div class="custom-control custom-checkbox">
+                          <input
+                            type="checkbox"
+                            class="custom-control-input"
+                            id="remember-me"
+                          />
+                          <label class="custom-control-label" for="remember-me"
+                            >Remember me</label
+                          >
+                        </div>
+                        <a href="#">Forgot password?</a>
+                      </div>
+                      <div class="create-account mt-4">
+                        <a href="register.html">Create Account</a>
+                      </div>
+                    </div>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
@@ -147,3 +159,4 @@
     <script src="assets/js/main.js"></script>
   </body>
 </html>
+

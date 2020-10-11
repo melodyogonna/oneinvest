@@ -1,9 +1,10 @@
 $(document).ready(function () {
   AOS.init();
-  $(".owl-carousel").slick({
-    slidesToShow: 1,
-    arrows: false,
+  $(".owl-carousel").owlCarousel({
+    items: 1,
     autoplay: true,
-    easing: "ease-in",
+    loop: true,
+    autoplayHoverPause: true,
+    animateOut: "fadeOut",
   });
 });
