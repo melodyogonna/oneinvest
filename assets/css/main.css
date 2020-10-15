@@ -65,7 +65,8 @@ h6 {
   color: #e1e3ea;
   border-radius: 17px; }
 
-.shortsteps li:before {
+.shortsteps li:before,
+.our-features li:before {
   content: "\2713";
   display: inline-block;
   margin-right: 0.4rem;
@@ -75,7 +76,8 @@ h6 {
   font-size: 1.2rem;
   border-radius: 50%; }
 
-.shortsteps li {
+.shortsteps li,
+.our-features li {
   margin-bottom: 0.6rem; }
 
 .benefit-section {
