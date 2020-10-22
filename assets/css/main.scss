@@ -110,44 +110,60 @@ h6 {
 }
 
 .plans-section {
-  background-image: url("../images/nabeel-hussain-szc62bN79jY-unsplash.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  // background-image: url("../images/nabeel-hussain-szc62bN79jY-unsplash.jpg");
+  // background-repeat: no-repeat;
+  // background-size: cover;
   padding: 6rem 0rem;
   .plans-section__header {
     margin-bottom: 2rem;
   }
   .plans {
     .plan {
-      background-color: lighten($color: $accent-1, $amount: 2);
-      border-radius: 7px;
-      &.plan--overview {
-        background-color: $primary-color;
-        color: $accent-1;
-      }
+      .plan__container{
+        &.plan--purple{
+          background-color: #1e3888;
+        }
+        
+        &.plan--pink{
+          background-color: #d676b3;
+        }
+        
+        &.plan--blue{
+          background-color: #3a5ebf;
+        }
+        
+        padding: .3rem;
 
-      .plan__features {
-        li {
-          margin-top: 0.6rem;
+        .plan__card{
+          background-color: $body-bg;
+          position: relative;
+          top: -1rem;
+          left: -1rem;
+        }
+        .plan__header{
           color: $text-color;
+          .plan__price{
+            .price{
+              font-size: 2rem;
+              font-weight: bold;
+            }
+            .year{
+              color: #6a6a6d;
+              font-size: .9rem;
+            }
+          }
         }
-        li:before {
-          content: "\2713";
-          display: inline-block;
-          margin-right: 0.4rem;
-          color: $primary-color;
-          padding: 0.2rem 0.5rem;
-          font-size: 1.2rem;
-          border-radius: 50%;
-        }
-      }
 
-      .plan__footer {
-        margin-top: 2rem;
-        .plan__cta-btn {
-          background-color: $primary-color;
-          color: $accent-1;
-          width: 8rem;
+        .plan__name{
+          .name{
+            font-size: 1.5rem;
+          }
+        }
+        .plan__body{
+          li{
+            margin-bottom: .4rem;
+            color: #6a686d;
+          }
         }
       }
     }
