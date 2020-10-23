@@ -178,7 +178,7 @@ h6 {
     }
   }
   .second-cta-image {
-    background-image: url("../images/volkan-vardar-f89aMG-KI-I-unsplash (1).jpg");
+    background-image: url("../images/trade-forex.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 40rem;
@@ -216,11 +216,19 @@ main.auth-page {
   background: linear-gradient(225deg, #ffefc9 0%, #ffcf5c 100%);
 }
 
-.password-eye {
-  position: relative;
-  left: 21rem;
-  top: -2rem;
-  cursor: pointer;
-  color: #444147;
+.password-formgroup{
+position: relative;
+
+ .password-eye{
+    position: absolute;
+    top: 1.2rem; 
+}
+
+ .password-eye {
+    left: 23rem;
+    cursor: pointer;
+    color: #444147;
+  }
+
 }
 
