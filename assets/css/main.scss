@@ -119,49 +119,49 @@ h6 {
   }
   .plans {
     .plan {
-      .plan__container{
-        &.plan--purple{
+      .plan__container {
+        &.plan--purple {
           background-color: #1e3888;
         }
-        
-        &.plan--pink{
+
+        &.plan--pink {
           background-color: #d676b3;
         }
-        
-        &.plan--blue{
+
+        &.plan--blue {
           background-color: #3a5ebf;
         }
-        
-        padding: .3rem;
 
-        .plan__card{
+        padding: 0.3rem;
+
+        .plan__card {
           background-color: $body-bg;
           position: relative;
           top: -1rem;
           left: -1rem;
         }
-        .plan__header{
+        .plan__header {
           color: $text-color;
-          .plan__price{
-            .price{
+          .plan__price {
+            .price {
               font-size: 2rem;
               font-weight: bold;
             }
-            .year{
+            .year {
               color: #6a6a6d;
-              font-size: .9rem;
+              font-size: 0.9rem;
             }
           }
         }
 
-        .plan__name{
-          .name{
+        .plan__name {
+          .name {
             font-size: 1.5rem;
           }
         }
-        .plan__body{
-          li{
-            margin-bottom: .4rem;
+        .plan__body {
+          li {
+            margin-bottom: 0.4rem;
             color: #6a686d;
           }
         }
@@ -198,8 +198,29 @@ main.auth-page {
   height: 100vh;
 
   .auth-pattern-section {
-    background-image: url("../images/memphis-1788465.svg");
+    background-image: url("../images/trade-forex.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
   }
 }
+
+.auth-form {
+  position: relative;
+  .auth__header {
+    color: $text-color;
+  }
+}
+.auth-btn {
+  background: linear-gradient(225deg, #ffefc9 0%, #ffcf5c 100%);
+}
+
+.password-eye {
+  position: relative;
+  left: 21rem;
+  top: -2rem;
+  cursor: pointer;
+  color: #444147;
+}
+

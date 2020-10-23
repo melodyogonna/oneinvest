@@ -1,189 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
-      crossorigin="anonymous"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <title>One-Invest - Register</title>
-  </head>
 
-  <body>
-    <main class="auth-page">
-      <div class="row px-0">
-        <div class="col-md-5">
-          <div class="container">
-            <div class="login-form col-md-8 m-auto">
-              <div class="bg-light mt-5 shadow-sm p-3">
-                <div class="social-logins text-center">
-                  <a href="#" class=""
-                    ><span
-                      class="fab fa-google fa-2x d-inline-block mr-2"
-                    ></span
-                  ></a>
-                  <a href="#" class=""
-                    ><span class="fab fa-facebook fa-2x d-inline-block"></span
-                  ></a>
-                </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <title>One-Invest - Register</title>
+</head>
 
-                <div class="login mt-3">
-                  <form action="" method="post">
-                    <div class="form-group">
-                      <label for="fullname" class="text-color">Fullname</label>
-                      <input
-                        type="text"
-                        name="fullname"
-                        id="fullname"
-                        class="form-control form-control-lg"
-                        placeholder="John Doe"
-                      />
-                    </div>
-                    <div class="form-group mt-4">
-                      <label for="email" class="text-color">Email</label>
-                      <input
-                        type="text"
-                        name="email"
-                        id="email"
-                        placeholder="johndoe@email.com"
-                        class="form-control-lg form-control mt-1"
-                      />
-                    </div>
-                    <div class="form-group">
-                      <label for="country" class="text-color">Country</label>
-                      <select name="country" class="custom-select" id="country">
-                        <option value="">Select country</option>
-                        <option value="">Nigeria</option>
-                      </select>
-                    </div>
-                    <div class="form-group mt-3">
-                      <label for="password" class="text-color">Password</label>
-                      <input
-                        type="password"
-                        name="password"
-                        id="password"
-                        class="form-control form-control-lg"
-                        placeholder="Password"
-                      />
-                    </div>
-                    <div class="form-group mt-3">
-                      <label for="cpassword" class="text-color"
-                        >Confirm Password</label
-                      >
-                      <input
-                        type="password"
-                        name="cpassword"
-                        id="cpassword"
-                        class="form-control form-control-lg"
-                        placeholder="Password"
-                      />
-                    </div>
-                    <div class="form-group mt-2">
-                      <button class="btn btn-primary px-4">Register</button>
-                      <div class="custom-control custom-checkbox mt-2">
-                        <input
-                          type="checkbox"
-                          class="custom-control-input"
-                          id="accept-terms"
-                        />
-                        <label
-                          class="custom-control-label text-color"
-                          for="accept-terms"
-                          >Accept
-                          <a href="#">our terms and conditions</a></label
-                        >
-                      </div>
-                      <div class="create-account mt-4">
-                        <a href="login.html">Login instead</a>
-                      </div>
-                    </div>
-                  </form>
-                </div>
+<body>
+  <main class="auth-page">
+    <div class="row mx-0">
+      <div class="auth-pattern-section col-md-7"></div>
+      <div class="col-md-5">
+        <div class="container">
+          <div class="auth-form col-md-8 m-auto">
+            <div class="bg-light mt-5 shadow-sm p-3">
+              <!-- <div class="social-logins text-center"> -->
+              <!--   <a href="#" class=""><span class="fab fa-google fa-2x d-inline-block mr-2"></span></a> -->
+              <!--   <a href="#" class=""><span class="fab fa-facebook fa-2x d-inline-block"></span></a> -->
+              <!-- </div> -->
+              <div class="auth__header text-center">
+                <h2>Create your Account</h2>
+                <p>Welcome to the future of Investments</p>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="auth-pattern-section col-md-7"></div>
-      </div>
-    </main>
-    <footer class="mt-10">
-      <div class="container-fluid">
-        <div class="row justify-content-between">
-          <div class="col-md-3 col-sm-5">
-            <h4>OneInvest</h4>
-            <p>
-              176 Pivet Avenue, San Francisco, CA, United States.
-            </p>
-          </div>
-          <div class="col-md-9 col-sm-7">
-            <div class="row justify-content-between">
-              <div class="col-6 col-md-4">
-                <h4>Explore</h4>
-                <ul class="list-unstyled">
-                  <li class="nav-item">
-                    <a href="" class="nav-link">Contact us</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-6 col-md-4">
-                <h4>Resources</h4>
-                <ul class="list-unstyled">
-                  <li class="nav-item">
-                    <a href="" class="nav-link">Privacy Policy</a>
-                  </li>
 
-                  <li class="nav-item">
-                    <a href="" class="nav-link">Terms and Conditions</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-6 col-md-4">
-                <h4>Social</h4>
-                <ul class="list-unstyled">
-                  <li class="nav-item">
-                    <a href="" class="nav-link">Facebook</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a href="" class="nav-link">Instagram</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="" class="nav-link">LinkedIn</a>
-                  </li>
-                </ul>
+              <div class="login mt-3">
+                <form action="" method="post">
+                  <div class="form-group">
+                    <input type="text" name="fullname" id="fullname" class="form-control form-control-lg"
+                      placeholder="Fullname" />
+                  </div>
+                  <div class="form-group mt-5">
+                    <input type="text" name="email" id="email" placeholder="Email"
+                      class="form-control-lg form-control mt-1" />
+                  </div>
+                  <div class="form-group mt-5">
+                    <input type="password" name="password" id="password" class="form-control form-control-lg"
+                      placeholder="Password" />
+                    <i class="fas fa-eye password-eye"></i>
+                  </div>
+                  <div class="form-group mt-2">
+                    <input type="password" name="cpassword" id="cpassword" class="form-control form-control-lg"
+                      placeholder="Confirm Password" />
+                    <i class="fas fa-eye password-eye"></i>
+                  </div>
+                  <div class="form-group mt-2">
+                    <button class="btn auth-btn w-100 py-2">Register</button>
+                    <div class="custom-control custom-checkbox mt-2">
+                      <input type="checkbox" class="custom-control-input" id="accept-terms" />
+                      <label class="custom-control-label text-color" for="accept-terms">Accept
+                        <a href="#">our terms and conditions</a></label>
+                    </div>
+                    <div class="create-account mt-4">
+                      <a href="login.html">Login instead</a>
+                    </div>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </footer>
+    </div>
+  </main>
+  <footer class="mt-10">
+    <div class="container-fluid">
+      <div class="row justify-content-between">
+        <div class="col-md-3 col-sm-5">
+          <h4>OneInvest</h4>
+          <p>
+            176 Pivet Avenue, San Francisco, CA, United States.
+          </p>
+        </div>
+        <div class="col-md-9 col-sm-7">
+          <div class="row justify-content-between">
+            <div class="col-6 col-md-4">
+              <h4>Explore</h4>
+              <ul class="list-unstyled">
+                <li class="nav-item">
+                  <a href="" class="nav-link">Contact us</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-4">
+              <h4>Resources</h4>
+              <ul class="list-unstyled">
+                <li class="nav-item">
+                  <a href="" class="nav-link">Privacy Policy</a>
+                </li>
 
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script
-      type="text/javascript"
-      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
-    <script src="assets/js/main.js"></script>
-  </body>
+                <li class="nav-item">
+                  <a href="" class="nav-link">Terms and Conditions</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-4">
+              <h4>Social</h4>
+              <ul class="list-unstyled">
+                <li class="nav-item">
+                  <a href="" class="nav-link">Facebook</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="" class="nav-link">Instagram</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">LinkedIn</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
 </html>
